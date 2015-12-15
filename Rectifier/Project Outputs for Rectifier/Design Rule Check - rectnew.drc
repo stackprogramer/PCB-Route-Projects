@@ -1,0 +1,85 @@
+Protel Design System Design Rule Check
+PCB File : F:\Users\Public\Documents\Altium\Projects\Rectifier\rectnew.PcbDoc
+Date     : 10/18/2015
+Time     : 1:08:11 PM
+
+Processing Rule : Room rect (Bounding Region = (76.708mm, 124.46mm, 134.62mm, 146.812mm) (InComponentClass('rect'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on BottomLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on BottomLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :7
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+   Violation between Track (106.807mm,149.479mm)(106.807mm,150.114mm)  Bottom Layer and 
+                     Pad D1-3(106.807mm,149.733mm)  Multi-Layer
+   Violation between Track (106.807mm,149.479mm)(108.585mm,149.479mm)  Bottom Layer and 
+                     Pad D1-3(106.807mm,149.733mm)  Multi-Layer
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=3mm) (Preferred=1mm) (All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "P1" (125.222mm,156.083mm)  Bottom Overlay and 
+                     Track (124.449mm,154.675mm)(124.449mm,157.745mm)  Bottom Overlay
+   Violation between Text "P1" (125.222mm,156.083mm)  Bottom Overlay and 
+                     Track (124.449mm,154.675mm)(126.249mm,154.675mm)  Bottom Overlay
+   Violation between Text "~" (113.919mm,146.685mm)  Bottom Overlay and 
+                     Track (114.347mm,147.273mm)(114.347mm,156.337mm)  Bottom Overlay
+Rule Violations :3
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Text "P1" (125.222mm,156.083mm)  Bottom Overlay and 
+                     Pad P1-1(125.349mm,156.845mm)  Multi-Layer
+   Violation between Track (115.316mm,115.443mm)(115.316mm,115.672mm)  Top Overlay and 
+                     Pad R2-2(115.316mm,116.713mm)  Multi-Layer
+   Violation between Track (115.316mm,110.134mm)(115.316mm,110.363mm)  Top Overlay and 
+                     Pad R2-1(115.316mm,109.093mm)  Multi-Layer
+Rule Violations :3
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Pad P1-2(125.349mm,155.575mm)  Top Layer and 
+                     Pad P1-1(125.349mm,156.845mm)  Multi-Layer
+   Violation between Pad P2-2(130.429mm,127.889mm)  Multi-Layer and 
+                     Pad P2-1(131.699mm,127.889mm)  Multi-Layer
+Rule Violations :2
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetD1_3 Between Pad D1-3 (106.807,149.733mm) And Pad P1-2 (125.349,155.575mm)
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Track (106.807mm,149.479mm)(106.807mm,150.114mm)  Bottom Layer and 
+                     Pad D1-3(106.807mm,149.733mm)  Multi-Layer
+   Violation between Track (106.807mm,149.479mm)(108.585mm,149.479mm)  Bottom Layer and 
+                     Pad D1-3(106.807mm,149.733mm)  Multi-Layer
+Rule Violations :2
+
+
+Violations Detected : 20
+Time Elapsed        : 00:00:00
